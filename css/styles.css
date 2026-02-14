@@ -65,11 +65,13 @@ body {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  font-size: 18px;    /* REQUIRED */
+  line-height: 1.17;  /* REQUIRED */
 }
 
 .logo-part {
@@ -267,6 +269,16 @@ body {
 .page-footer {
   background: #2e2f42;
   padding: 100px 0;
+}
+
+.footer-logo .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  font-size: 18px;    /* REQUIRED */
+  line-height: 1.17;  /* REQUIRED */
 }
 
 .footer-logo .logo-part {
