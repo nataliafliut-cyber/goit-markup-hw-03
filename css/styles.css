@@ -24,6 +24,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  line-height: 1.5; /* REQUIRED */
 }
 
 .container {
@@ -40,6 +41,9 @@ body {
   text-align: center;
   margin-bottom: 72px;
   font-size: 36px;
+  font-weight: 700; /* REQUIRED */
+  line-height: 1.11;
+  letter-spacing: 0.02em; /* REQUIRED */
   color: #2e2f42;
 }
 
@@ -64,6 +68,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
   color: #4d5ae5;
 }
 
@@ -82,6 +87,8 @@ body {
   padding: 24px 0;
   color: #2e2f42;
   font-weight: 500;
+  line-height: 1.5; /* REQUIRED */
+  letter-spacing: 0.02em; /* REQUIRED */
 }
 
 .nav-link:hover,
@@ -95,7 +102,10 @@ body {
 }
 
 .address-link {
+  display: block; /* REQUIRED */
   color: #434455;
+  line-height: 1.5; /* REQUIRED */
+  letter-spacing: 0.02em; /* REQUIRED */
 }
 
 .address-link:hover,
@@ -118,6 +128,8 @@ body {
 .hero-title {
   color: white;
   font-size: 56px;
+  font-weight: 700; /* REQUIRED */
+  line-height: 1.07; /* REQUIRED */
   margin-bottom: 48px;
   max-width: 496px;
   margin-left: auto;
@@ -132,6 +144,11 @@ body {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 500; /* REQUIRED */
+  line-height: 1.5; /* REQUIRED */
+  letter-spacing: 0.04em; /* REQUIRED */
 }
 
 .hero-button:hover,
@@ -148,6 +165,21 @@ body {
 
 .features-item {
   width: calc((100% - 72px) / 4);
+}
+
+.features-title {
+  font-size: 20px;
+  font-weight: 500; /* REQUIRED */
+  line-height: 1.2; /* REQUIRED */
+  letter-spacing: 0.02em; /* REQUIRED */
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.features-text {
+  font-size: 16px;
+  line-height: 1.5; /* REQUIRED */
+  letter-spacing: 0.02em; /* REQUIRED */
 }
 
 /* TEAM */
@@ -170,6 +202,21 @@ body {
 .team-content {
   padding: 32px 16px;
   text-align: center;
+}
+
+.team-name {
+  font-size: 20px;
+  font-weight: 500; /* REQUIRED */
+  line-height: 1.2; /* REQUIRED */
+  letter-spacing: 0.02em; /* REQUIRED */
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.team-role {
+  font-size: 16px;
+  line-height: 1.5; /* REQUIRED */
+  letter-spacing: 0.02em; /* REQUIRED */
 }
 
 /* PORTFOLIO */
@@ -200,6 +247,21 @@ body {
   border-top: none;
 }
 
+.portfolio-title {
+  font-size: 20px;
+  font-weight: 500; /* REQUIRED */
+  line-height: 1.2; /* REQUIRED */
+  letter-spacing: 0.02em; /* REQUIRED */
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5; /* REQUIRED */
+  letter-spacing: 0.02em; /* REQUIRED */
+}
+
 /* FOOTER */
 
 .page-footer {
@@ -215,6 +277,8 @@ body {
   color: #f4f4fd;
   margin-top: 16px;
   max-width: 264px;
+  line-height: 1.5; /* REQUIRED */
+  letter-spacing: 0.02em; /* REQUIRED */
 }
 
 /* VISUALLY HIDDEN */
